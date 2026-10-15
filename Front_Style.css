@@ -3,23 +3,23 @@ body{
     font-family: Garamond , serif;
 }
 #TopText {
-    font-family: Garamond , serif; /* Font type */
-    font-size: 45px;               /* Font size */
-    color: #25AAE1;                   /* Text color */
+    font-family: Utile , sans-serif; /* Font type */
+    font-size: 35px;               /* Font size */
+    color: white;                   /* Text color */
     text-align: center;            /* Center-align the text */
-    margin-top: 150px;              /* Top margin */
+    justify-content: center;
+    align-items: center;
     margin-bottom: 0px;           /* Bottom margin */
     padding: 10px;                 /* Padding around the text */
-    border-bottom: 2px solid #25AAE1; /* Bottom border */
-    background-color: black;     /* Background color */
+    padding-top: 20px;
     height: 100px;
 }
 
 #TopHeader {
     display: flex;
     margin: -8px;
-    background-color: black;
-    height: 600px;
+    background-color: #17382B;
+    height: 200px;
 }
 
 .Top_column {
@@ -33,13 +33,13 @@ body{
     align-items: center;     /* Vertically center */
     align-items: center;
     max-width: 100%;
-    background-color: black;
+    background-color: #17382B;
 }
 
 .Top_column-right {
     color: #25AAE1;
     text-align: center;
-    background-color: black;
+    background-color: #17382B;
     font-size: 20px;
 }
 
