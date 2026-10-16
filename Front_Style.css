@@ -1,16 +1,16 @@
-/* styles.css */
+
 body{
     font-family: Utile , sans-serif;
 }
 #TopText {
-    font-family: Utile , sans-serif; /* Font type */
-    font-size: clamp(1rem, 3.5vw, 3rem);              /* Font size */
-    color: white;                   /* Text color */
-    text-align: center;            /* Center-align the text */
+    font-family: Utile , sans-serif;
+    font-size: clamp(1rem, 3.5vw, 3rem);
+    color: white;
+    text-align: center;
     justify-content: center;
     align-items: center;
-    margin-bottom: 0px;           /* Bottom margin */
-    padding: 10px;                 /* Padding around the text */
+    margin-bottom: 0px;
+    padding: 10px;
     padding-top: 20px;
     height: 100px;
 }
@@ -21,6 +21,21 @@ body{
     background-color: #17382B;
     height: 200px;
 }
+#Menubar {
+    text-align: center;
+    color: white;
+    background-color: #17382B;
+}
+#Menubar a:link{
+    text-align: center;
+    color: white;
+    background-color: #17382B;
+}
+#Menubar a:visited{
+    text-align: center;
+    color: white;
+    background-color: #17382B;
+}
 
 .Top_column {
     flex: 1;
@@ -28,9 +43,9 @@ body{
 }
 
 .Top_column-left {
-    display: flex;          /* Use Flexbox to center the image */
-    justify-content: center; /* Horizontally center */
-    align-items: center;     /* Vertically center */
+    display: flex;
+    justify-content: center;
+    align-items: center;
     align-items: center;
     max-width: 100%;
 
@@ -57,18 +72,18 @@ body{
 }
 
 .About_column-left {
-    display: flex;          /* Use Flexbox to center the image */
-    justify-content: center; /* Horizontally center */
-    align-items: center;     /* Vertically center */
+    display: flex;
+    justify-content: center;
+    align-items: center;
     align-items: center;
     background-color: white;
 }
 
 .About_column-right {
-    display: flex;               /* Enable Flexbox */
-    justify-content: center;     /* Center horizontally */
-    align-items: center;         /* Center vertically */
-    flex-direction: column;      /* Stack content vertically */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
     color: black;
     text-align: center;
     background-color: white;
@@ -76,7 +91,7 @@ body{
     padding: 20px;
 }
 #face {
-    width: 80%;  /* Maintain aspect ratio */
+    width: 80%;
     height: auto;
 }
 
@@ -84,10 +99,9 @@ body{
 
     background: #F0F0F0;
     margin-top: 10px;
-    display: flex;          /* Enable Flexbox */
-    flex-direction: row;    /* Ensure children are in a row (side by side) */
-    justify-content: space-between; /* Space out columns */
-
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
 }
 .ShowcaseColumn{
 
@@ -105,10 +119,10 @@ body{
 
 .Showcase-left {
     flex: 3;
-    display: flex;          /* Use Flexbox to center the image */
-    justify-content: center; /* Horizontally center */
-    align-items: center;     /* Center vertically */
-    flex-direction: column;      /* Stack content vertically */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
     color: black;
     text-align: center;
     background-color: white;
@@ -118,9 +132,9 @@ body{
 
 .Showcase-right {
     flex: 7;
-    display: flex;               /* Enable Flexbox */
-    justify-content: center;     /* Center horizontally */
-    align-items: center;         /* Center vertically */
+    display: flex;
+    justify-content: center;
+    align-items: center;
     color: black;
     text-align: center;
 
