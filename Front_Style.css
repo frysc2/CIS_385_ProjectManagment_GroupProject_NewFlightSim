@@ -116,6 +116,40 @@ body{
 
 }
 
+#ScopeRow {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 20px;
+}
+
+#ScopeColumnLeft {
+  background-color: #00A055;
+  border: red;
+  padding: 20px;
+}
+#ScopeColumnLeft img {
+  max-width: 100%;  /* Prevents the image from being wider than the column */
+  height: auto;     /* Maintains the original aspect ratio so it doesn't distort */
+  display: block;   /* Removes unwanted blank space/gap at the bottom of the image */
+}
+
+#MemberRow {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 20px;
+}
+
+#MemberColumnLeft {
+  background-color: #00A055;
+  border: red;
+  padding: 20px;
+}
+#MemberColumnLeft img {
+  max-width: 100%;  /* Prevents the image from being wider than the column */
+  height: auto;     /* Maintains the original aspect ratio so it doesn't distort */
+  display: block;   /* Removes unwanted blank space/gap at the bottom of the image */
+}
+
 #ShowcaseHeader{
     text-align: center;
     font-size: 30px;
