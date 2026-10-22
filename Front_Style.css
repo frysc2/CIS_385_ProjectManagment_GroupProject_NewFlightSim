@@ -132,9 +132,9 @@ body{
 display: flex;
     justify-content: center;
     align-items: center;
-  max-width: 100%;  /* Prevents the image from being wider than the column */
-  height: 200px;     /* Maintains the original aspect ratio so it doesn't distort */
-  display: block;   /* Removes unwanted blank space/gap at the bottom of the image */
+  max-width: 100%;
+  height: 200px;
+  display: block;
 }
 
 #MemberRow {
